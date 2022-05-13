@@ -1,0 +1,25 @@
+:root {
+  --outline-svg: 3px dashed #2a2a2a;
+  --stroke-svg: #2a2a2a;
+}
+
+svg {
+  display: block;
+  margin: 10px;
+}
+
+/* ТЕГ <SVG> И ТЕГ <RECT>,
+ТЕГ <CIRCLE>,
+ТЕГ <ELLIPSE>,
+ТЕГ <LINE>,
+ТЕГ <POLYLINE>,
+ТЕГ <POLYGON>,
+ТЕГ <PATH> */
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f9f9fd;
+}

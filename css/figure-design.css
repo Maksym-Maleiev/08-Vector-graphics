@@ -1,0 +1,33 @@
+/* FILL, СВОЙСТВО FILL-OPACITY,
+СВОЙСТВО STROKE, СВОЙСТВО STROKE-WIDTH,
+STROKE-OPACITY */
+
+.container {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  background-color: #f9f9fd;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  display: inline-flex;
+  border: 2px solid #2a2a2a;
+  border-radius: 8px;
+  fill: #2a2a2a;
+  fill-opacity: 0.7;
+  stroke: #000;
+  stroke-width: 2;
+  stroke-opacity: 0.7;
+}
+
+.icon + .icon {
+  margin-left: 20px;
+}
+
+.icon:hover {
+  fill: yellow;
+  stroke: blue;
+  background-color: #2a2a2a;
+}
